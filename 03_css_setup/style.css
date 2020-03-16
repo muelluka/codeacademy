@@ -18,3 +18,7 @@ h1 {
     font-family: cursive;
     text-transform: capitalize;
 }
+
+.publish-time {
+    color: gray;
+}
