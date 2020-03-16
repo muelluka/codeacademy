@@ -1,6 +1,6 @@
 p {
     font-family: Arial;
-  }
+}
 
 h1 {
     color: maroon;
@@ -10,6 +10,11 @@ h1 {
     color: teal;
 }
 
-.uppercase{
-  text-transform: uppercase;
+.uppercase {
+    text-transform: uppercase;
+}
+
+#article-title {
+    font-family: cursive;
+    text-transform: capitalize;
 }
