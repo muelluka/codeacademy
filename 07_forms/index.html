@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-    <title>Checkbox Input</title>
+    <title>Radio Input</title>
 </head>
 
 <body>
@@ -33,24 +33,27 @@
                 <span>Well-Done</span>
             </section>
             <hr>
-
             <section class="toppings">
                 <span>What toppings would you like?</span>
                 <br>
-                <!--Add your code below for the first checkbox-->
-                <label for="ChyntuckRinge">Chyntuck-Ringe</label>
-                <!--Add your code below for the second checkbox-->
-                <input id="ChyntuckRinge" name="topping" type="checkbox" value="ChyntuckRinge">
-
+                <input type="checkbox" name="topping" id="lettuce" value="lettuce">
                 <label for="lettuce">Lettuce</label>
-                <!--Add your code below for the second checkbox-->
-                <input id="lettuce" name="topping" type="checkbox" value="lettuce">
-
+                <input type="checkbox" name="topping" id="tomato" value="tomato">
                 <label for="tomato">Tomato</label>
-                <!--Add your code below for the third checkbox-->
-                <input id="tomato" name="topping" type="checkbox" value="tomato">
+                <input type="checkbox" name="topping" id="onion" value="onion">
+                <label for="onion">Onion</label>
+            </section>
+            <hr>
 
-
+            <section class="cheesy">
+                <span>Would you like to add cheese?</span>
+                <br>
+                <!--Add your first radio button below-->
+                <input type="radio" id="yes" name="cheese" value="yes">
+                <label for="yes">Yes</label>
+                <!--Add your second radio button below-->
+                <input type="radio" id="no" name="cheese" value="no">
+                <label for="no">No</label>
             </section>
 
         </form>
