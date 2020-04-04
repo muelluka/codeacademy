@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-    <title>Radio Input</title>
+    <title>Dropdown List</title>
 </head>
 
 <body>
@@ -44,16 +44,24 @@
                 <label for="onion">Onion</label>
             </section>
             <hr>
-
             <section class="cheesy">
                 <span>Would you like to add cheese?</span>
                 <br>
-                <!--Add your first radio button below-->
-                <input type="radio" id="yes" name="cheese" value="yes">
+                <input type="radio" name="cheese" id="yes" value="yes">
                 <label for="yes">Yes</label>
-                <!--Add your second radio button below-->
-                <input type="radio" id="no" name="cheese" value="no">
+                <input type="radio" name="cheese" id="no" value="yes">
                 <label for="no">No</label>
+            </section>
+            <hr>
+
+            <section class="bun-type">
+                <label for="bun">What type of bun would you like?</label>
+                <!--Add your code below-->
+                <select id="bun" name="bun">
+                    <option value="sesame">Sesame</option>
+                    <option value="potato">Potato</option>
+                    <option value="sweetOnion">Sweet-onion</option>
+
             </section>
 
         </form>
